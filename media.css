@@ -1,0 +1,10 @@
+/* when the creen size is lower than 1200 px the desktop navigation is going to disappear */
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    /* to shrink the menu to hamburger menu */
+    #hamburger-nav{
+        display: flex;
+    }
+}
